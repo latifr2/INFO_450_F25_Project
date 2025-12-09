@@ -34,9 +34,6 @@ def load_data():
 
 df = load_data()
 
-st.subheader("Data Preview")
-st.write(df.head())
-
 st.subheader("Histogram of Repair Amount")
 fig_hist = px.histogram(
     df,
